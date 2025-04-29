@@ -7,11 +7,13 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 ## Features
 
 ### For Employers:
+
 - Post job openings.
 - View and manage applications.
 - Log out and manage account details.
 
 ### For Job Seekers:
+
 - Search and filter jobs by skill and city.
 - Get notified by email for job postings matching their skillset.
 - Upload resumes using Cloudinary.
@@ -19,6 +21,7 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 - Update profile and password seamlessly.
 
 ### Core Functionalities:
+
 - **Authentication:** Secure login/logout for users (Employers and Job Seekers).
 - **Real-Time Updates:** Notifications and dashboard functionalities for dynamic interaction.
 
@@ -39,24 +42,28 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 ## Installation
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - MongoDB (local or hosted instance)
 
 ### Steps
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/Chauhanvishal01/Jop-Portal-Web-App.git
+   git clone https://github.com/Mohitkumar2698/Jop-Portal-Web-App.git
    cd job-portal-web-app
    ```
 
 2. **Install backend dependencies:**
+
    ```bash
    cd backend
    npm install
    ```
 
 3. **Install frontend dependencies:**
+
    ```bash
    cd ../frontend
    npm install
@@ -66,7 +73,8 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 
    -Create a `config` folder in the backend directory.
    -Inside the config folder, create a `config.env` file to store environment variables or refer to the `SampleDotENV` file for guidance.
-   - 
+
+   -
    - Add the following variables:
      ```env
      MONGO_URI=your_mongodb_connection_string
@@ -97,6 +105,7 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 ## Screenshots
 
 ### Home Page
+
 ![Home Page Screenshot](./frontend/screenshots/home.png)
 
 ![Home Page Screenshot](./frontend/screenshots/home2.png)
@@ -104,22 +113,29 @@ A full-featured **Job Portal Web Application** built using the **MERN stack** (M
 ![Home Page Screenshot](./frontend/screenshots/home3.png)
 
 ### Login Page
+
 ![Login Page Screenshot](./frontend/screenshots/login.png)
 
 ### Register Page
+
 ![Register Page Screenshot](./frontend/screenshots/register.png)
 
 ### Job Details
+
 ![Job Details Screenshot](./frontend//screenshots/jobs.png)
 
 ### Job Filter
+
 ![Job Filter Screenshot](./frontend/screenshots/jobfilter.png)
 
 ### Gmail Notifications
+
 ![Gmail Notifications Screenshot](./frontend/screenshots/gmailnotificationsend.png)
 
 ### Dashboard
-ScreenShots: 
+
+ScreenShots:
+
 - [Employer Dashboard](https://github.com/Chauhanvishal01/Jop-Portal-Web-App/tree/main/frontend/screenshots/employer)
 
 - [User Dashboard](https://github.com/Chauhanvishal01/Jop-Portal-Web-App/tree/main/frontend/screenshots/user)
@@ -127,6 +143,7 @@ ScreenShots:
 ---
 
 ## Further Enhancements
+
 - Add analytics and insights for job seekers and employers.
 - Implement chat functionality between employers and job seekers.
 - Integrate third-party APIs for advanced job search features.
@@ -134,12 +151,8 @@ ScreenShots:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 ## Author
-- **Vishal** - MERN Developer and Software Engineering Fresher.
 
-Feel free to fork the project, submit pull requests, or report issues on [GitHub](https://github.com/Chauhanvishal01/Jop-Portal-Web-App).
+- **Mohit Kumar** - MERN Developer and Software Engineering Fresher.
+
+Feel free to fork the project, submit pull requests, or report issues on [GitHub](https://github.com/Mohitkumar2698/Jop-Portal-Web-App).
