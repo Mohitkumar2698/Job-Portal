@@ -1,6 +1,7 @@
 import app from "./app.js";
 import cloudinary from "cloudinary";
 // Deploy Settings
+import express from "express";
 import path from "path";
 const __dirname = path.resolve();
 
