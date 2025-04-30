@@ -11,12 +11,12 @@ cloudinary.v2.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-app.get("/", (req, res) => {
-  res.send({
-    status: "Success 200",
-    error: "false",
-  });
-});
+// app.get("/", (req, res) => {
+//   res.send({
+//     status: "Success 200",
+//     error: "false",
+//   });
+// });
 
 // Deploy Settings
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
